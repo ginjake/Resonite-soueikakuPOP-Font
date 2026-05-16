@@ -76,10 +76,17 @@ This means many users outside Japan may see no change until they install or conf
 
 ## Build
 
-Update the reference paths in `SoueiKakuPopFontMod.csproj` if your Resonite profile is not:
+Update `ResonitePath` in `SoueiKakuPopFontMod.csproj` if your Resonite install is not:
 
 ```text
-C:\Users\ottoi\AppData\Local\RESO Launcher\profiles\reshade\Game
+D:\SteamLibrary\steamapps\common\Resonite
+```
+
+The build expects ResoniteModLoader to be installed in that same Resonite folder:
+
+```text
+D:\SteamLibrary\steamapps\common\Resonite\Libraries\ResoniteModLoader.dll
+D:\SteamLibrary\steamapps\common\Resonite\rml_libs\0Harmony.dll
 ```
 
 Build:
@@ -91,7 +98,7 @@ dotnet build -c Release
 The current project file copies the built DLL to:
 
 ```text
-C:\Users\ottoi\AppData\Local\RESO Launcher\profiles\reshade\Game\rml_mods
+D:\SteamLibrary\steamapps\common\Resonite\rml_mods
 ```
 
 Only distribute the DLL and source code. Do not distribute `HGRPP1.TTC`.
