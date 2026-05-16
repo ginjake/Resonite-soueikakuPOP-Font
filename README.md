@@ -1,26 +1,80 @@
 # SoueiKakuPopFontMod
 
-A ResoniteModLoader mod that forces Resonite UI text to use **HG Souei Kaku Pop** (`HGRPP1.TTC`) when that font is available on the user's PC.
+Resonite の文字表示を、PC にある **HG Souei Kaku Pop / 創英角ポップ体** (`HGRPP1.TTC`) に差し替える ResoniteModLoader 用 Mod です。
+
+## 日本語
+
+### 必要なもの
+
+- ResoniteModLoader
+- `HGRPP1.TTC`
+
+この Mod にはフォントファイルは含まれていません。
+
+### 導入方法
+
+1. ResoniteModLoader を導入します。
+2. リリースページから `SoueiKakuPopFontMod.dll` をダウンロードします。
+3. DLL を Resonite の `rml_mods` フォルダに入れます。
+4. PC に `HGRPP1.TTC` があることを確認します。
+5. Resonite を起動します。
+
+代表的な `rml_mods` の場所:
+
+```text
+C:\Program Files (x86)\Steam\steamapps\common\Resonite\rml_mods
+C:\Users\<you>\AppData\Local\RESO Launcher\profiles\<profile>\Game\rml_mods
+```
+
+### フォントの置き方
+
+通常は、Windows にフォントが入っていればこの場所にあります。
+
+```text
+C:\Windows\Fonts\HGRPP1.TTC
+```
+
+その場所に無い場合は、自分で入手した `HGRPP1.TTC` を次の名前にして、`SoueiKakuPopFontMod.dll` と同じフォルダに置いてください。
+
+```text
+SoueiKakuPopFontMod.HGRPP1.TTC
+```
+
+フォントが見つからない場合、Resonite 標準フォントのままになります。
+
+### フォントを手動で入手するには
+
+まず、自分の Windows や Microsoft Office に `HGRPP1.TTC` が含まれているか確認してください。
+
+無い場合は、正規のフォント販売サイトなどで次の名前を探してください。
+
+- `HG Soei Kakupoptai`
+- `HG Souei Kaku Pop`
+- `HGRPP1.TTC`
+
+参考:
+
+- RICOH font licensing: https://industry.ricoh.com/en/font/license_po/
+- RICOH PC font page: https://industry.ricoh.com/en/font/pc/
+- MyFonts HG Soei Kakupoptai: https://www.myfonts.com/collections/hg-soei-kakupoptai-font-ricoh
 
 ## English
+
+This is a ResoniteModLoader mod that forces Resonite UI text to use **HG Souei Kaku Pop** (`HGRPP1.TTC`) when the font is available on the user's PC.
 
 ### Requirements
 
 - ResoniteModLoader
-- A legally obtained copy of **HG Souei Kaku Pop** / **HG Soei Kakupoptai**
+- `HGRPP1.TTC`
 
-This mod does **not** include the font file.
-
-HG Souei Kaku Pop is not a free font. It is a RICOH commercial/proprietary font that may be bundled with some Microsoft Office or Japanese Windows environments, and it is also sold by font distributors.
-
-Do not redistribute `HGRPP1.TTC` with this mod unless your font license explicitly permits redistribution.
+This mod does not include the font file.
 
 ### Installation
 
 1. Install ResoniteModLoader.
 2. Download `SoueiKakuPopFontMod.dll` from the release page.
 3. Put the DLL into your Resonite `rml_mods` folder.
-4. Make sure HG Souei Kaku Pop is installed or configured.
+4. Make sure `HGRPP1.TTC` exists on your PC.
 5. Start Resonite.
 
 Typical `rml_mods` locations:
@@ -32,58 +86,32 @@ C:\Users\<you>\AppData\Local\RESO Launcher\profiles\<profile>\Game\rml_mods
 
 ### Font Setup
 
-The mod checks for the font in this order:
+If the font is installed in Windows, it is usually here:
 
-1. `font_path` in the ResoniteModLoader config.
-2. `SoueiKakuPopFontMod.HGRPP1.TTC` next to `SoueiKakuPopFontMod.dll`.
-3. `C:\Windows\Fonts\HGRPP1.TTC`.
+```text
+C:\Windows\Fonts\HGRPP1.TTC
+```
 
-If the font is missing, the mod leaves Resonite's default fonts unchanged and writes a log message.
+If it is not there, place your own copy next to `SoueiKakuPopFontMod.dll` with this file name:
 
-To get the font legally, check whether your Windows or Microsoft Office installation already includes `HGRPP1.TTC`, or buy/license the font from a legitimate distributor. Search for `HG Soei Kakupoptai`, `HG Souei Kaku Pop`, or `HGRPP1.TTC`.
+```text
+SoueiKakuPopFontMod.HGRPP1.TTC
+```
+
+If the font is missing, the mod leaves Resonite's default fonts unchanged.
+
+### Getting the Font
+
+First, check whether your Windows or Microsoft Office installation already includes `HGRPP1.TTC`.
+
+If not, search legitimate font distributors for:
+
+- `HG Soei Kakupoptai`
+- `HG Souei Kaku Pop`
+- `HGRPP1.TTC`
 
 References:
 
 - RICOH font licensing: https://industry.ricoh.com/en/font/license_po/
 - RICOH PC font page: https://industry.ricoh.com/en/font/pc/
 - MyFonts HG Soei Kakupoptai: https://www.myfonts.com/collections/hg-soei-kakupoptai-font-ricoh
-
-## 日本語
-
-### 必要なもの
-
-- ResoniteModLoader
-- 正規に入手した **HG Souei Kaku Pop** / **HG Soei Kakupoptai** / `HGRPP1.TTC`
-
-このModにはフォントファイルは含まれていません。
-
-HG Souei Kaku Pop、いわゆる創英角ポップ体はフリーフォントではありません。RICOH系の商用/プロプライエタリなフォントで、一部のMicrosoft Officeや日本語Windows環境に含まれている場合があります。また、フォント販売サイトで購入できる場合もあります。
-
-フォントのライセンスで明示的に再配布が許可されていない限り、`HGRPP1.TTC` をこのModに同梱して配布しないでください。
-
-### 導入方法
-
-1. ResoniteModLoaderを導入します。
-2. リリースページから `SoueiKakuPopFontMod.dll` をダウンロードします。
-3. DLLをResoniteの `rml_mods` フォルダに入れます。
-4. HG Souei Kaku Pop / `HGRPP1.TTC` がPCに存在するか、Mod設定で指定されていることを確認します。
-5. Resoniteを起動します。
-
-代表的な `rml_mods` の場所:
-
-```text
-C:\Program Files (x86)\Steam\steamapps\common\Resonite\rml_mods
-C:\Users\<you>\AppData\Local\RESO Launcher\profiles\<profile>\Game\rml_mods
-```
-
-### フォントの設定
-
-Modは次の順番でフォントを探します。
-
-1. ResoniteModLoaderの設定にある `font_path`
-2. `SoueiKakuPopFontMod.dll` と同じ場所にある `SoueiKakuPopFontMod.HGRPP1.TTC`
-3. `C:\Windows\Fonts\HGRPP1.TTC`
-
-フォントが見つからない場合、Resonite標準フォントのままになり、ログにメッセージを出します。UIが消えたりクラッシュしたりしないようにしています。
-
-手動で入手する場合は、まず自分のWindowsやMicrosoft Officeに `HGRPP1.TTC` が含まれているか確認してください。無い場合は、正規のフォント販売サイトなどで `HG Soei Kakupoptai`、`HG Souei Kaku Pop`、`HGRPP1.TTC` などの名前で探してください。
