@@ -45,12 +45,6 @@ SoueiKakuPopFontMod.HGRPP1.TTC
 - `HG Souei Kaku Pop`
 - `HGRPP1.TTC`
 
-参考:
-
-- RICOH font licensing: https://industry.ricoh.com/en/font/license_po/
-- RICOH PC font page: https://industry.ricoh.com/en/font/pc/
-- MyFonts HG Soei Kakupoptai: https://www.myfonts.com/collections/hg-soei-kakupoptai-font-ricoh
-
 ## English
 
 This is a ResoniteModLoader mod that forces Resonite UI text to use **HG Souei Kaku Pop** (`HGRPP1.TTC`) when the font is available on the user's PC.
@@ -95,9 +89,3 @@ If not, search legitimate font distributors for:
 - `HG Soei Kakupoptai`
 - `HG Souei Kaku Pop`
 - `HGRPP1.TTC`
-
-References:
-
-- RICOH font licensing: https://industry.ricoh.com/en/font/license_po/
-- RICOH PC font page: https://industry.ricoh.com/en/font/pc/
-- MyFonts HG Soei Kakupoptai: https://www.myfonts.com/collections/hg-soei-kakupoptai-font-ricoh
