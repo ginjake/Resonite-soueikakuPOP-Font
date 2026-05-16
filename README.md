@@ -2,6 +2,12 @@
 
 Resonite の文字表示を、PC にある **HG Souei Kaku Pop / 創英角ポップ体** (`HGRPP1.TTC`) に差し替える ResoniteModLoader 用 Mod です。
 
+## ScreenShot  
+<img width="1867" height="1028" alt="image" src="https://github.com/user-attachments/assets/dbfdefd3-63a0-41b7-8bde-460510aa8c16" />
+
+<img width="1873" height="991" alt="image" src="https://github.com/user-attachments/assets/adc71a54-66a1-42a2-9417-18f6a829ab56" />
+
+
 ## 日本語
 
 ### 必要なもの
