@@ -19,13 +19,6 @@ Resonite の文字表示を、PC にある **HG Souei Kaku Pop / 創英角ポッ
 4. PC に `HGRPP1.TTC` があることを確認します。
 5. Resonite を起動します。
 
-代表的な `rml_mods` の場所:
-
-```text
-C:\Program Files (x86)\Steam\steamapps\common\Resonite\rml_mods
-C:\Users\<you>\AppData\Local\RESO Launcher\profiles\<profile>\Game\rml_mods
-```
-
 ### フォントの置き方
 
 通常は、Windows にフォントが入っていればこの場所にあります。
@@ -76,13 +69,6 @@ This mod does not include the font file.
 3. Put the DLL into your Resonite `rml_mods` folder.
 4. Make sure `HGRPP1.TTC` exists on your PC.
 5. Start Resonite.
-
-Typical `rml_mods` locations:
-
-```text
-C:\Program Files (x86)\Steam\steamapps\common\Resonite\rml_mods
-C:\Users\<you>\AppData\Local\RESO Launcher\profiles\<profile>\Game\rml_mods
-```
 
 ### Font Setup
 
