@@ -7,7 +7,7 @@
     <RootNamespace>SoueiKakuPopFontMod</RootNamespace>
     <LangVersion>latest</LangVersion>
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
-    <ResonitePath>C:\Users\ottoi\AppData\Local\RESO Launcher\profiles\reshade\Game</ResonitePath>
+    <ResonitePath>D:\SteamLibrary\steamapps\common\Resonite</ResonitePath>
   </PropertyGroup>
 
   <ItemGroup>
