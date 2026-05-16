@@ -1,0 +1,21 @@
+bin/
+obj/
+.tools/
+.vs/
+.idea/
+*.user
+*.suo
+*.cache
+*.log
+
+# Do not commit commercial or user-provided font files.
+*.ttf
+*.ttc
+*.otf
+*.woff
+*.woff2
+
+# Local Resonite/debug artifacts
+rml_config/
+rml_mods/
+Logs/
